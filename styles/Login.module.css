@@ -1,0 +1,52 @@
+.login_container{
+    background-color: #0070f3;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_card{
+    background-color: white;
+    width: 300px;
+    height: 440px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login_card > span {
+    min-width: 300px;
+    min-height: 300px;
+}
+
+
+.login_button{
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_button > button {
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background-color: #039adf;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.login_error{
+    color: red;
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    position: absolute;
+    width: 260px;
+    margin-top: -200px;
+}
